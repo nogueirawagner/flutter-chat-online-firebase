@@ -16,6 +16,9 @@ final ThemeData kDefaultTheme = ThemeData(
   accentColor: Colors.orangeAccent[400]
 );
 
+final googleSignIn = GoogleSignIn();
+final auth = FirebaseAuth.instance;
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
